@@ -157,6 +157,12 @@ body {
 }
 
 @media all and (max-width: 700px) {
+	p {
+		font-size: .9em;
+	}
+	.sections {
+		margin: 20px 20px;
+	}
 	.col-1-3, .col-2-3, .col-1-2, .col-1-3-sub, .col-2-3-sub {
 		float: none;
 		width: auto;
@@ -167,9 +173,13 @@ body {
 		border-left: none;
 		border-top: 2px solid #D9D1C7;
 	}
-	.sections .col-1-3 {
+	.sections .col-1-3, .about-me .col-1-3-sub{
 		text-align: center;
 	}
+	.about-me img{
+		width: 60%;
+	}
+
 }
 
 .stamp {
