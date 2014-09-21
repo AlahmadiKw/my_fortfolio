@@ -1,0 +1,111 @@
+/*============*/
+/* my unreset */
+/*============*/
+li, ul, h2{
+	font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+	font-size: 1.1em;
+}
+
+body {
+	background-color: #8C8681;
+}
+
+
+
+
+.primary-container {
+	max-width: 940px;
+	/*background-color: #FCFCFC;*/
+	background: #FCFCFC url("../img/crossword.png") 0 0 repeat;
+	margin: 6% auto;
+	-webkit-box-shadow: 0px 0px 20px 0px #000;
+	   -moz-box-shadow: 0px 0px 20px 0px #000;
+            box-shadow: 0px 0px 20px 0px #000;
+	height: 1000px;
+}
+
+/*==========*/
+/* main nav */
+/*==========*/
+.main-nav{
+	color: #B9121B;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	border-bottom: 1px solid #D9D1C7;
+}
+.main-nav li {
+	margin: 3% 2%;
+	display: inline-block;
+	text-transform: capitalize;
+}
+.main-nav li:first-child: {
+	margin-left: 0;
+}
+.main-nav li:last-child: {
+	margin-right: 0;
+}
+
+@media all and (max-width: 420px) {
+	.main-nav li {
+		display: block;
+		margin: 1% auto;
+	}
+}
+
+/*=========*/
+/*main logo*/
+/*=========*/
+.main-logo {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	border-bottom: 1px solid #D9D1C7;
+}
+.main-logo h1{
+	color: #2F3540;
+	font-size: 3em;
+	font-family: 'Paytone One', sans-serif;
+	margin: 0 auto 20px auto;
+}
+.main-logo h2{
+	color: #8C8681;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0 auto 30px auto;
+}
+.main-logo li {
+	width: 5%;
+	display: inline-block;
+	margin: 0;
+	margin: 0 2%;
+}
+.main-logo li:first-child: {
+	margin-left: 0;
+}
+.main-logo li:last-child: {
+	margin-right: 0;
+}
+.main-logo img {
+	width: 100%;
+}
+
+@media all and (max-width: 420px) {
+	.main-logo h1 {
+		font-size: 1.5em;
+	}
+	.main-logo h2 {
+		font-size: 0.9em;
+	}
+	.main-logo li {
+		width: 10%;
+	}
+}
+
+/*====*/
+/*sections*/
+/*====*/
+.sections {
+	margin: 50px 30px;
+}
