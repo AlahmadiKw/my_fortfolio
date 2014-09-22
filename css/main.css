@@ -143,7 +143,7 @@ body {
 
 
 
-.col-1-3, .col-2-3, .col-1-2 , .col-1-3-sub, .col-2-3-sub{
+.col-1-3, .col-2-3, .col-1-2 , .col-1-3-sub, .col-2-3-sub, .col-1-2-sub {
 	float: left;
 }
 .col-2-3 {
@@ -154,7 +154,7 @@ body {
 .col-1-3 {
 	width: 20%;
 }
-.col-1-2 {
+.col-1-2, .col-1-2-sub {
 	width: 50%;
 }
 .grid:after {
@@ -172,12 +172,14 @@ body {
 .col-1-3-sub {
 	width: 20%;
 }
-.col-2-3-sub {
-	width: 80%;
+.col-2-3-sub, .col-1-2-sub {
 	padding-left: 3%;
 	padding-bottom: 3%;
 }
-.col-2-3-sub:last-child {
+.col-2-3-sub {
+	width: 80%;
+}
+.col-2-3-sub:last-child, .col-1-2-sub:last-child {
 	padding-bottom: 0;
 }
 .about-me img{
@@ -206,13 +208,13 @@ body {
 }
 
 @media all and (max-width: 700px) {
-	p, .sections li {
+	p, .sections li, td {
 		font-size: .9em;
 	}
 	.sections {
 		margin: 20px 20px;
 	}
-	.col-1-3, .col-2-3, .col-1-2, .col-1-3-sub, .col-2-3-sub {
+	.col-1-3, .col-2-3, .col-1-2, .col-1-3-sub, .col-2-3-sub, .col-1-2-sub {
 		float: none;
 		width: auto;
 	}
@@ -237,9 +239,41 @@ body {
 }
 
 /* ========================= */
-/* jqueri widget styling */
+/* Skills table styling */
 /* ========================= */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	width: 100%;
+	font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+}
+th, td {
+	padding-bottom: 2%;
+	vertical-align: top;
+}
+th {
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #D9D1C7;
+}
+td {
+	width: 50%;
+	padding: 2% 1% 1% 1%;
+}
+thead {
+	line-height: 1.5em;
+}
+thead th {
+	color: #474747;
+	font-size: 1.2em;
+}
 
+tbody {
+	color: #736E6A;
+}
+tbody .skill {
+	width: 20%;
+}
 
 
 
