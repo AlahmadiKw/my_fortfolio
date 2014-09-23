@@ -40,6 +40,11 @@ $(document).ready(function() {
 		.trigger("scroll");
 
 	// disable persistent for small screen sized
+	if ($('.main-nav li').css('display') == 'block') {
+		// console.log('yaaaaaay');
+		$('.primary-container').removeClass('persist-area');
+		$('.main-nav').removeClass('persist-header');
+	}
 	$(window).resize(function(){
 		if ($('.main-nav li').css('display') == 'block') {
 			// console.log('yaaaaaay');
