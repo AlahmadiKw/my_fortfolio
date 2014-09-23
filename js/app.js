@@ -57,8 +57,20 @@ $(document).ready(function() {
 	});
 
 	// links
-	$('.main-nav').on('click', 'li', function(){
+	$('.main-nav').on('click', '#link-about-me', function(){
 		$('body').scrollTo('#about-me', 500, {offset:-60});
+	});
+	$('.main-nav').on('click', '#link-experience', function(){
+		$('body').scrollTo('#experience', 500, {offset:-60});
+	});
+	$('.main-nav').on('click', '#link-education', function(){
+		$('body').scrollTo('#education', 500, {offset:-60});
+	});
+	$('.main-nav').on('click', '#link-skills', function(){
+		$('body').scrollTo('#skills', 500, {offset:-60});
+	});
+	$('.main-nav').on('click', '#link-projects', function(){
+		$('body').scrollTo('#projects', 500, {offset:-60});
 	});
 
 	// replace tags with keyword

@@ -55,6 +55,13 @@ body {
 	padding: 0;
 	border-bottom: 1px solid #D9D1C7;
 }
+.main-nav a{
+	text-decoration: none;
+	color: #B9121B;
+}
+.main-nav a:visited{
+	color: #B9121B;
+}
 .main-nav li:hover {
 	cursor: pointer;
 }
@@ -86,7 +93,7 @@ body {
 /* ========================= */
 .main-logo {
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 0.5%;
 	text-align: center;
 	border-bottom: 1px solid #D9D1C7;
 }
@@ -103,11 +110,14 @@ body {
 	font-style: italic;
 	margin: 0 auto 30px auto;
 }
+.main-logo ul {
+	text-align: right;
+}
 .main-logo li {
-	width: 5%;
+	width: 2%;
 	display: inline-block;
 	margin: 0;
-	margin: 0 2%;
+	margin: 0 0.5%;
 }
 .main-logo li:first-child: {
 	margin-left: 0;
@@ -125,6 +135,9 @@ body {
 	}
 	.main-logo h2 {
 		font-size: 0.9em;
+	}
+	.main-logo ul {
+		text-align: center;
 	}
 	.main-logo li {
 		width: 10%;
