@@ -36,9 +36,19 @@ body {
 }
 
 /* ========================= */
+/* persistent header */
+/* ========================= */
+.floatingHeader {
+	position: fixed;
+	top: 0;
+	visibility: hidden;
+}
+
+/* ========================= */
 /* main nav */
 /* ========================= */
 .main-nav{
+	background: #FCFCFC url("../img/crossword.png") 0 0 repeat;
 	color: #B9121B;
 	text-align: center;
 	width: 100%;
@@ -46,7 +56,7 @@ body {
 	border-bottom: 1px solid #D9D1C7;
 }
 .main-nav li {
-	margin: 3% 2%;
+	margin: 2% 2%;
 	display: inline-block;
 	text-transform: capitalize;
 }
@@ -313,6 +323,9 @@ tbody .skill {
 .project {
 	border-bottom: 2px solid #D9D1C7;
 	margin-top: 1%
+}
+.project:last-child {
+	border: none;
 }
 @media all and (max-width: 700px) {
 	.projects-icons li{
