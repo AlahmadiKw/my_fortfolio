@@ -55,8 +55,16 @@ body {
 	padding: 0;
 	border-bottom: 1px solid #D9D1C7;
 }
+.main-nav a{
+	text-decoration: none;
+	color: #B9121B;
+}
+.main-nav a:visited{
+	color: #B9121B;
+}
+
 .main-nav li {
-	margin: 2% 2%;
+	margin: 1% 2%;
 	display: inline-block;
 	text-transform: capitalize;
 }

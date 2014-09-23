@@ -56,6 +56,10 @@ $(document).ready(function() {
 		}
 	});
 
+	// links
+	$('.main-nav').on('click', 'li', function(){
+		$('body').scrollTo('#about-me', 500, {offset:-60});
+	});
 
 	// replace tags with keyword
 	$('.tags').text('Keywords:');
