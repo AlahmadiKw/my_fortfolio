@@ -67,7 +67,7 @@ body {
 	margin-right: 0;
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.main-nav li {
 		display: block;
 		margin: 1% auto;
@@ -116,7 +116,7 @@ body {
 	width: 100%;
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.main-logo h1 {
 		font-size: 1.5em;
 	}
@@ -227,7 +227,7 @@ body {
 	margin-bottom: 1%;
 }
 
-@media all and (max-width: 700px) {
+@media screen and (max-width: 700px) {
 	p, .sections li, td {
 		font-size: .9em;
 	}
@@ -327,7 +327,7 @@ tbody .skill {
 .project:last-child {
 	border: none;
 }
-@media all and (max-width: 700px) {
+@media screen and (max-width: 700px) {
 	.projects-icons li{
 		width: 8%;
 	}
