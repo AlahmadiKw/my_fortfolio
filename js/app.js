@@ -21,7 +21,6 @@ function UpdateTableHeaders() {
    });
 }
 
-
 $(document).ready(function() {
 
 	// for persistent header
