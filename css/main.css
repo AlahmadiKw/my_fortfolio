@@ -1,11 +1,11 @@
 /* ========================= */
 /* my unreset */
 /* ========================= */
-li, ul, h2, p, .tags{
+li, ul, h2, p, .tags, footer{
 	font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
 	font-size: 1.0em;
 }
-p, .sections li{
+p, .sections li, footer{
 	font-size: 1.0em;
 	line-height: 1.5em;
 	color: #736E6A;
@@ -380,5 +380,22 @@ tbody .tags {
 }
 .contact-me img {
 	width: 100%;
+}
+
+/*footer*/
+footer p{
+	padding: 1% 1%;
+	background-color: #2F3540;
+	text-align: center;
+	color: #fff;
+	font-size: 0.8em;
+}
+footer a{
+	text-decoration: underline;
+	color: #fff;
+	font-size: 0.8em;
+}
+footer a:visited{
+	color: #fff;
 }
 
