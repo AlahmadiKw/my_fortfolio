@@ -72,6 +72,9 @@ $(document).ready(function() {
 	$('.main-nav').on('click', '#link-projects', function(){
 		$('body').scrollTo('#projects', 500, {offset:-60});
 	});
+	$('.main-nav').on('click', '#link-contact-me', function(){
+		$('body').scrollTo('#contact-me', 500, {offset:-60});
+	});
 
 	// replace tags with keyword
 	$('.tags').text('Keywords:');

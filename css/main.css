@@ -362,4 +362,23 @@ tbody .tags {
 	margin: .5%;
 }
 
+/*contact me */
+.contact-me ul {
+	text-align: center;
+}
+.contact-me li {
+	width: 5%;
+	display: inline-block;
+	margin: 0;
+	margin: 2% 2%;
+}
+.contact-me li:first-child: {
+	margin-left: 0;
+}
+.contact-me li:last-child: {
+	margin-right: 0;
+}
+.contact-me img {
+	width: 100%;
+}
 
